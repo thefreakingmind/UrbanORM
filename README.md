@@ -78,20 +78,6 @@ private String email;
 ```
 The ORM will automatically map this POJO to a table named user in the configured database, just
 like JPA/Hibernate would.
-### 5. Demo: The User Class
-For demo purposes, a User class has been created in the entity folder.
-```java
-@Entity
-public class User {
-@Id
-@GeneratedValue(strategy = GenerationType.IDENTITY)
-private int id;
-@Column
-private String name;
-@Column
-private String email;
-}
-```
 - Dual Write Mode: Data can be written to both primary and secondary databases.
 - CRUD Operations: Supports basic Create, Read, Update, Delete operations.
 - Spring Boot Integration: The ORM can be easily integrated into any Spring Boot project.
