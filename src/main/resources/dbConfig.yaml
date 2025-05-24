@@ -1,0 +1,9 @@
+database:
+  primary:
+    url: "jdbc:mysql://localhost:3306/urbanDB"
+    username: "root"
+    password: "Mpasas1109123@"
+  secondary:
+    url: "jdbc:mysql://localhost:3306/urbanDBSlave"
+    username: "root"
+    password: "Mpasas1109123@"
